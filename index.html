@@ -1,25 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bex Walks the Pets</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <img src="bex-logo.png" alt="Bex Walks the Pets Logo" class="logo">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Becks Pet Trecks</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <header>
-            <h1>Welcome to Becks Pet Trecks</h1>
-        </header>
-        <section>
-            <img src="logo.png" alt="Becks Pet Trecks Logo">
-            <h2>Professional Dog Walking in Duncraig, Perth</h2>
-            <p>Your dog's happiness and well-being are our top priority!</p>
-            <a href="mailto:info@beckspettrecks.com">Contact Us</a>
-        </section>
-        <footer>
-            <p>&copy; 2024 Becks Pet Trecks - All Rights Reserved</p>
-        </footer>
-    </body>
-    </html>
-    
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Trusted, Caring Dog Walking Services</h1>
+            <p>Let Bex Walk Your Pets with Love and Care</p>
+            <a href="#contact" class="cta-btn">Book a Walk Today</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-list">
+            <div class="service">
+                <h3>Daily Walks</h3>
+                <p>Regular exercise for your dog with 30 or 60-minute walks.</p>
+            </div>
+            <div class="service">
+                <h3>Puppy Visits</h3>
+                <p>Special care for your puppy, including playtime and a short walk.</p>
+            </div>
+            <div class="service">
+                <h3>Group Walks</h3>
+                <p>Social walks with other dogs in a small, friendly group.</p>
+            </div>
+            <div class="service">
+                <h3>Custom Walks</h3>
+                <p>Tailored walks based on your pet's needs and your schedule.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>Meet Bex</h2>
+        <p>Hi, I’m Bex, and I’m passionate about providing high-quality care for your pets. With years of experience, I ensure your dog has a safe and fun time on every walk.</p>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews">
+        <h2>What Our Clients Are Saying</h2>
+        <div class="review">
+            <p>"Bex is the best! She took such great care of my pup. Highly recommend!"</p>
+            <p>- Client Name</p>
+        </div>
+        <div class="review">
+            <p>"The walks are always on time and my dog loves Bex!"</p>
+            <p>- Another Happy Client</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Get in Touch</h2>
+        <form action="#" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Bex Walks the Pets | Follow us on <a href="#">Instagram</a> and <a href="#">Facebook</a></p>
+    </footer>
+</body>
+</html>
